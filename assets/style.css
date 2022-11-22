@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#corpo{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#topo{
+    background-color: red;
+    color:#ffffff;
+    width: 100%;
+    padding: 35px 0px;
+}
+
+#topo .center{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center input{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    border: 0;
+}
+
+.center .results{
+    width: calc(100% + 20px);
+    background-color: #4d4c4c;
+    position: absolute;
+}
+.results .item{ 
+    display: block; 
+    width: calc(100% - 20px); 
+    padding: 10px;
+}
+
+.item:hover{
+    width: calc(100% - 20px); 
+    padding: 10px; cursor: pointer; 
+    background-color: #333; 
+    color: #FFF;
+}
+
+#content{
+    width: 100%;
+}
